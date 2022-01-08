@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Harry",
+      "profile_pic": "https://www.seekpng.com/png/detail/422-4220685_homem-fardado-nc-man-smiling-crossed-arms.png"
+    },
+    {
+      "id": 2,
+      "name": "Rai",
+      "profile_pic": "https://github.com/raiane-honorato.png"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "post_content": "const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)\nconst compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)\nconst unfold = (f, seed) => {\nconst go = (f, seed, acc) => {\nconst res = f(seed)\nreturn res ? go(f, res[1], acc.concat([res[0]])) : acc\n}\nreturn go(f, seed, [])\n}",
+      "title": "Projeto 1",
+      "description": "Descrição Projeto 1",
+      "language": "Javascript",
+      "color": "#9AFF6B"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "post_content": "const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)\nconst compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)\nconst unfold = (f, seed) => {\nconst go = (f, seed, acc) => {\nconst res = f(seed)\nreturn res ? go(f, res[1], acc.concat([res[0]])) : acc\n}\nreturn go(f, seed, [])\n}",
+      "title": "Projeto 2",
+      "description": "Descrição Projeto 2",
+      "language": "Python",
+      "color": "#FFC46B"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "post_content": "const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)\nconst compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)\nconst unfold = (f, seed) => {\nconst go = (f, seed, acc) => {\nconst res = f(seed)\nreturn res ? go(f, res[1], acc.concat([res[0]])) : acc\n}\nreturn go(f, seed, [])\n}",
+      "title": "Projeto 3",
+      "description": "Descrição Projeto 3",
+      "language": "Java",
+      "color": "#6B83FF"
+    }
+  ]
+}
